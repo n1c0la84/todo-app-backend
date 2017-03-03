@@ -1,0 +1,15 @@
+<html ng-app="todo-app">
+  <head>
+    <title>Client REST con Angular.js</title>
+    <script src="./angular.min.js"></script>
+    <script src="./todo-app.js"></script>
+  </head>
+  <body ng-controller="main-ctrlr">
+    <p>
+      <h1>Cose da fare:</h1>
+      <ul><li ng-repeat="todo in todos">
+        {{todo.content}}
+      </li></ul>
+   </p>
+ </body>
+</html>
