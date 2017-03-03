@@ -1,2 +1,2 @@
-# todo-app-backend
-A simple to-do app backend in ruby with mongodb database.
+# todo-app-sinatra-angularjs
+A very simple todo app with backend in ruby and mongodb and frontend in angular.js.
